@@ -3,7 +3,7 @@ def vendingMachine();  # creates the vending machine object
     totalCredit = 0
     coinAmount = int(input("insert coins here: ")) 
 
- products = ["coca-cola": $1.00,"chips":$0.65,"candy":0.65]
+ products = ["coca-cola":1.00,"chips":0.65,"candy":0.65]
  
 # creating coin object's and giving them states
 class penny
