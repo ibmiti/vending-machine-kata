@@ -1,5 +1,4 @@
-def vendingMachine();  # creates the vending machine object
-    count = 0          # defines the variable and gives it the value of 0, we will add to this later
+def vendingMachine();  # creates the vending machine object 
     totalCredit = 0
     coinAmount = int(input("insert coins here: ")) 
 
@@ -32,7 +31,7 @@ validCoins = ["penny":True,"nickle":True,"dime":True,"quarter":True]
     while coin not in validCoins:
         print(int("insert valid coin: ")
     if coin in validCoins:
-        totalCredit = count + coin + CoinAmount   
+        totalCredit = coin + CoinAmount   
 
     
  print("You have ${0} in your bank.".format (round (totalCredit, 2)))   # rounding the int entered to the second decimal this will remove all 0's past the second decimal
